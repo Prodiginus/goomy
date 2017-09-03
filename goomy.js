@@ -2,7 +2,7 @@
 const { CommandoClient } = require('discord.js-commando')
 const path = require('path');
 const fs = require('fs');
-require('dotenv').config()
+require('dotenv').config();
 //config parse---------------------------------------------------------------------------
 var config = JSON.parse(fs.readFileSync('./config.json', 'utf-8'));
 //variables------------------------------------------------------------------------------

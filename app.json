@@ -1,0 +1,13 @@
+{
+    "name": "goomy",
+    "logo": "https://vignette1.wikia.nocookie.net/pokemon/images/3/35/704Goomy_Super_Mystery_Dungeon.PNG",
+    "description": "Goomy the Pokemon",
+    "image": "heroku/nodejs",
+    "buildpacks": [{
+            "url": "https://github.com/shunjikonishi/heroku-buildpack-ffmpeg"
+        },
+        {
+            "url": "heroku/nodejs"
+        }
+    ]
+}

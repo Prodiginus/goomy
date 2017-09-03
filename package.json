@@ -1,0 +1,25 @@
+{
+    "name": "goomy",
+    "version": "2.0.0",
+    "description": "Goomy the pokemon",
+    "main": "goomy.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": ">=8.0",
+        "npm": ">=5.0"
+    },
+    "author": "Prodiginus",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^2.1.0",
+        "discord.js": "^11.1.0",
+        "discord.js-commando": "github:gawdl3y/discord.js-commando#11.1",
+        "dotenv": "^4.0.0",
+        "ffmpeg": "0.0.4",
+        "fs": "0.0.1-security",
+        "opusscript": "0.0.3",
+        "path": "^0.12.7"
+    }
+}

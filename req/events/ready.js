@@ -6,6 +6,10 @@ module.exports = client => {
     console.log(chalk.green.bold(`Goomy is up and online at ${new Date()}`));
     console.log(chalk.green.bold(`${config.inviteLink}`));
 
-    client.user.setGame("with Goodra");
-    client.user.setStatus("online");
+    client.user.setPresence({
+      status: "online",
+      game: {
+        name: "with Goodra"
+      }
+    })
 }
